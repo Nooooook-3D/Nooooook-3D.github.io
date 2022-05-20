@@ -1,0 +1,41 @@
+.topnav{
+    background-color: #082425;
+    overflow: hidden;
+}
+.topnav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: #244474;
+    color: #f2f2f2;
+}
+.topnav a.active {
+    background-color: #728b7f;
+    color: white;
+}
+.topnav a.secret{
+    float: right;
+    color: black;
+}
+html{
+    background-color: #043c46;
+}
+#basicinfo{
+    background-color: #b9a198;
+    text-align: center;
+}
+#funfact{
+    text-align: center;
+    background-color: #b9a198;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
